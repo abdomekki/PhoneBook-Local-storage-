@@ -1,0 +1,51 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style_index.css">
+    </head>
+
+    <body>
+    
+        <section class="phonebook">
+                <div id="PhoneBook">       
+                    <div class="container text-center">
+                        <h1 class="text-primary">My PhoneBook</h1>
+                        <div class="form-group">
+                            <input type="text" placeholder="Enter Your Name" class="form-control" >
+                            <input type="text" placeholder="Enter Phone Number" class="form-control" >
+                            <input type="text" placeholder="Enter Your Email" class="form-control">
+                            <button class="btn btn-primary my-5" onclick="add()">Add</button>
+                        </div>
+
+                    </div>
+                </div>
+
+           <div class="container py-5">
+             <table class="table text-center">
+                  <thead>
+                    <tr class="text-center text-primary">
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Phone</th>
+                      <th scope="col">Email</th>
+                    </tr>
+                  </thead>
+                  <tbody id="MyBody">
+                    
+                      
+                      
+                  </tbody>
+            </table>
+               
+            </div>
+
+        </section>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+
+</html>
